@@ -1,0 +1,15 @@
+{
+  "openapi": "3.0.0",
+  "info": { "title": "Progloss API (mock)", "version": "1.0.0" },
+  "paths": {
+    "/api/customers": {
+      "get": { "summary": "List customers" },
+      "post": { "summary": "Create customer (protected)" }
+    },
+    "/api/customers/{id}": {
+      "get": { "summary": "Get customer" },
+      "put": { "summary": "Update customer (protected)" },
+      "delete": { "summary": "Delete customer (protected)" }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+### Node
+node_modules/
+**/node_modules/
+
+### Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+### Build / Output
+dist/
+build/
+out/
+coverage/
+
+### Environment
+.env
+*.local
+backend/.env
+frontend/.env
+
+### Editors & OS
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+### TypeScript
+*.tsbuildinfo
+
+### Vite / caches
+.vite/
+.vite-deps/
+
+### Frontend specific
+frontend/dist/
+frontend/.cache/
+frontend/node_modules/
+frontend/src/routeTree.gen.ts
+
+### Backend specific
+backend/node_modules/
+backend/dist/
+backend/build/
+
+### Misc
+.eslintcache
+.nyc_output/
+*.log
+npm-packages-offline-cache/

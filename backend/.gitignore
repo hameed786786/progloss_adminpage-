@@ -1,0 +1,17 @@
+.DS_Store
+.env
+.env.*
+.env.local
+!.env.example
+node_modules/
+dist/
+coverage/
+*.log
+npm-debug.log*
+tsconfig.tsbuildinfo
+*.tsbuildinfo
+/.idea/
+/.vscode/
+logs/
+pids/
+*.pid
